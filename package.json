@@ -12,6 +12,7 @@
   ],
   "author": "jacob purcell",
   "dependencies": {
-    "command-line-args": "^0.5.3"
+    "command-line-args": "^0.5.3",
+    "node-watch": "^0.3.4"
   }
 }
