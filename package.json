@@ -1,0 +1,17 @@
+{
+  "name": "typescript-file-watcher",
+  "version": "0.0.1",
+  "description": "Watches TypeScript files for changes and compiles them.  Groups multiple file changes into single compile command.",
+  "main": "watch.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "jacob purcell",
+  "dependencies": {
+    "command-line-args": "^0.5.3"
+  }
+}
