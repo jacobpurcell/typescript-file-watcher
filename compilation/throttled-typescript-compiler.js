@@ -30,7 +30,7 @@ exports.ThrottledTypeScriptCompiler.prototype.compile = function(filename){
         this.filesToCompileLookup[filename] = true;
 
         // clear existing scheduled compilation call
-        this.throttleId && clearTimeout(throttleId);
+        this.throttleId && clearTimeout(this.throttleId);
 
         // schedule compilation call
         this.throttleId = setTimeout(function() {
